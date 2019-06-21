@@ -53,3 +53,10 @@ class TestXueQiuSearch(BaseLog):
     def test_log(self):
         self.log.debug("this is test debug log")
         self.log.info('this is test info log')
+
+
+    def test_profile(self):
+        profile = ProfilePage(self.driver)
+        profile.login()
+        selected = profile.gotoSelected()
+        selected.addSelect('alibaba','01688')
