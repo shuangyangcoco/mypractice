@@ -30,3 +30,4 @@ class ProfilePage(BasePage):
 
     def gotoPost(self):
         return PostPage(self.driver)
+

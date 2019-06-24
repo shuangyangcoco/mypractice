@@ -17,6 +17,5 @@ class SelectPage(BasePage):
         return float(current_price)
 
 
-
     
 
